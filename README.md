@@ -11,7 +11,7 @@ rsync -ac --delete -f "- .*" . /tmp/backup
 
 ## Задание №2
 
-### Script
+### script
 ```
 #!/bin/bash
 sudo rsync -a --delete /home/pezu/ /tmp/backup
